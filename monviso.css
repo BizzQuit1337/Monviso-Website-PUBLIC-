@@ -1,0 +1,224 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: darkolivegreen;
+}
+
+.header {
+    text-align: center;
+    background-color: white;
+    color: darkolivegreen;
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    top: 0;
+    left: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 3vh;
+    background-color: white;
+    color: darkolivegreen;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.placeholder {
+    width: 100%;
+    height: 90px;
+    background: darkolivegreen;
+}
+
+.all_browser {
+    margin: 0;
+    padding: 3px;
+    background-color: darkolivegreen;
+    scroll-behavior: auto;
+    width: 60vw;
+}
+
+.navigation_row_about {
+    width: 100%;
+    height: 5vh;
+    padding-top: 10vh;
+}
+
+.navigation_row {
+    width: 100%;
+    height: 5vh;
+}
+
+.navigation_col {
+    background-color: white;
+    width: 100%;
+    height: 3rem;
+}
+
+.buttonHeader {
+    border: 0;
+    background-color: white;
+    height: 100%;
+    font-size: 1rem;
+    color: darkolivegreen;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.buttonHeader:hover {
+    background-color: pink;
+}
+
+.button {
+    border: 0;
+    background-color: white;
+    padding-top: 1vh;
+    height: 100%;
+    font-size: 1rem;
+    color: darkolivegreen;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+.info_row{
+    width: 100%;
+    height: 10vh;
+}
+
+.info_col {
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+    background-color: darkolivegreen;
+    width: 90%;
+    height: 10vh;
+}
+
+.textBox {
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 15vh;
+    padding-top: 1vh;
+    padding-bottom: 10vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.textBoxArea {
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 70vh;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.internal {
+    font-size: 1.2rem;
+}
+
+.person {
+    width: 60vw;
+    height: auto;
+    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.title {
+    color: grey;
+}
+
+.internal_button_row {
+    padding-bottom: 1vh;
+}
+
+.internalButton {
+    color: white;
+    background-color: darkolivegreen;
+}
+
+.internalButton:hover {
+    color: white;
+    background-color: pink;
+}
+
+.textBoxBottom {
+    text-align: left;
+    font-size: 25px;
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 250vh;
+    padding-bottom: 8vh;
+    padding-top: 10vh;
+}
+
+.logo {
+    padding-left: 30px;
+    height: 13vh;
+    width: auto;
+    float: left;
+}
+
+.emailButton {
+    cursor: pointer;
+}
+
+.linkedInButton {
+    cursor: pointer;
+}
+
+.emailButtonFooter {
+    cursor: pointer;
+    background-color: white;
+    color: darkolivegreen;
+}
+
+.linkedInButtonFooter {
+    cursor: pointer;
+    background-color: white;
+    color: darkolivegreen;
+}
+
+.FAQ {
+    width: 100%;
+    height: 60vh;
+    padding-top: 10vh;
+}
+
+.FAQ_text {
+    font-size: 2rem;
+}
+.submit_question_area {
+    width: 20vw;
+    height: 10vh;
+    resize: none;
+}
+
+.emailField {
+    width: 20vw;
+}
+
+.about-us {
+    padding-top: 11vh;
+}
+
+.image {
+    padding-bottom: 6vh;
+}

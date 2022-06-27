@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="monviso.css">
+    <script src="functions.js"></script>
+    <title>Monvisocap.com</title>
+    <div class="header">
+        <img src="logo.jpg" class="logo">
+        <h1>
+            Monvisocap LTD
+        </h1>
+        <div class="navigation_row">
+            <div class="navigation_col">
+                <button class="buttonHeader" onclick=home()>Home</button>
+                <button class="buttonHeader" onclick=goToAbout()>About Us</button>
+                <button class="buttonHeader" onclick=goToTeam()>Meet The Team</button>
+                <button class="buttonHeader" onclick=goToFAQ()>FAQ</button>
+            </div>
+        </div>
+    </div>
+</head>
+<body>
+    <center>
+    <div class="all_browser">
+        <div id="FAQ" class="FAQ">
+            <h1>
+                FAQ
+            </h1>
+            <p class="FAQ_text">
+                Q: How Long has the company been established? <br> A: since the dawn of mankind. <br> Q: Who is the strongest member of the team? <br> A: Richard. <br>
+            </p>
+            <p class="submit_question">
+                If you would like to submit a question please enter it into the box below and it will be sent to a company email. Please also provide your email adress in the first section so we ay respond appropriatly.
+            </p>
+            <input id="email" class="emailField" placeholder="enter email adress here"><br>
+            <textarea id="question" class="submit_question_area" placeholder="add question here"></textarea><br>
+            <button onclick=submit()>Submit</button>
+        </div>
+    </div>
+    </center>
+</body>
+<footer> 
+    <a>
+        Business number -> 12345 (not sure what other company info needs to be here be here it can go)
+    </a>
+    <button class="emailButtonFooter" onclick=email()><img src="EmailIcon.png" width="50" height="auto"><a href="email adress">email adress</a></button>
+    <button class="linkedInButtonFooter" onclick=linkedIn()><img src="LinkedIn.png" width="50" height="auto"><a href="https://www.linkedin.com/in/richardbrown60/">Richard Brown</a></button>
+</footer>
+</html>  
